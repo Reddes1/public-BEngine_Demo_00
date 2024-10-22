@@ -1,0 +1,93 @@
+{
+  "FL Configs": [
+    {
+      "Model_Name": "Config_Example_00",
+      "Set_Count": 2,
+      "Max_Key_Depth": 3,
+      "Ruleset_Name": "Behaviours",
+      "State_Names": [ "AGGRO", "BALANCED", "DEFENSIVE" ],
+      "Sets": [
+        {
+          "Set_Name": "Distance",
+          "Member_Count": 3,
+          "Members": [
+            {
+              "Name": "Close",
+              "Shape_ID": 0,
+              "Points": [ 0, 0, 4 ]
+            },
+            {
+              "Name": "Distant",
+              "Shape_ID": 0,
+              "Points": [ 2, 5, 8 ]
+            },
+            {
+              "Name": "Far",
+              "Shape_ID": 0,
+              "Points": [ 6, 10, 10 ]
+            }
+          ]
+        },
+        {
+          "Set_Name": "Power",
+          "Member_Count": 3,
+          "Members": [
+            {
+              "Name": "Weak",
+              "Shape_ID": 1,
+              "Points": [ 0, 0, 10, 35 ]
+            },
+            {
+              "Name": "Strong",
+              "Shape_ID": 1,
+              "Points": [ 20, 35, 65, 80 ]
+            },
+            {
+              "Name": "Overpowered",
+              "Shape_ID": 1,
+              "Points": [ 65, 90, 100, 100 ]
+            }
+          ]
+        }
+      ],
+      "Keys_&_Rules": [
+        {
+          "Keys": [ 0, 0 ],
+          "Output": 0
+        },
+        {
+          "Keys": [ 0, 1 ],
+          "Output": 1
+        },
+        {
+          "Keys": [ 0, 2 ],
+          "Output": 2
+        },
+        {
+          "Keys": [ 1, 0 ],
+          "Output": 0
+        },
+        {
+          "Keys": [ 1, 1 ],
+          "Output": 1
+        },
+        {
+          "Keys": [ 1, 2 ],
+          "Output": 2
+        },
+        {
+          "Keys": [ 2, 0 ],
+          "Output": 0
+        },
+        {
+          "Keys": [ 2, 1 ],
+          "Output": 1
+        },
+        {
+          "Keys": [ 2, 2 ],
+          "Output": 2
+        }
+      ]
+    }
+  ]
+}

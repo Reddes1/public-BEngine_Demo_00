@@ -1,0 +1,308 @@
+{
+  "Animations": [
+    {
+      "Name": "Swordwoman_Attack_00_Left",
+      "Type ID": 0,
+
+      "Frame Count": 8,
+      "FPS": 10
+    },
+    {
+      "Name": "Swordwoman_Attack_00_Right",
+      "Type ID": 0,
+
+      "Frame Count": 8,
+      "FPS": 10
+    },
+
+    {
+      "Name": "Swordwoman_Idle_00_Left",
+      "Type ID": 0,
+
+      "Frame Count": 4,
+      "FPS": 10
+    },
+    {
+      "Name": "Swordwoman_Idle_00_Right",
+      "Type ID": 0,
+
+      "Frame Count": 4,
+      "FPS": 10
+    },
+
+    {
+      "Name": "Swordwoman_Jump_End_00_Left",
+      "Type ID": 0,
+
+      "Frame Count": 3,
+      "FPS": 10
+    },
+    {
+      "Name": "Swordwoman_Jump_End_00_Right",
+      "Type ID": 0,
+
+      "Frame Count": 3,
+      "FPS": 10
+    },
+
+    {
+      "Name": "Swordwoman_Jump_Start_00_Left",
+      "Type ID": 0,
+
+      "Frame Count": 4,
+      "FPS": 10
+    },
+    {
+      "Name": "Swordwoman_Jump_Start_00_Right",
+      "Type ID": 0,
+
+      "Frame Count": 4,
+      "FPS": 10
+    },
+
+    {
+      "Name": "Swordwoman_Run_00_Left",
+      "Type ID": 0,
+
+      "Frame Count": 8,
+      "FPS": 10
+    },
+    {
+      "Name": "Swordwoman_Run_00_Right",
+      "Type ID": 0,
+
+      "Frame Count": 8,
+      "FPS": 10
+    },
+
+
+    {
+      "Name": "Template_Player_Idle_L",
+      "Type ID": 0,
+
+      "Frame Count": 10,
+      "FPS": 10
+    },
+    {
+      "Name": "Template_Player_Idle_R",
+      "Type ID": 0,
+
+      "Frame Count": 10,
+      "FPS": 10
+    },
+    {
+      "Name": "Template_Player_Jump_L",
+      "Type ID": 0,
+
+      "Frame Count": 6,
+      "FPS": 10
+    },
+    {
+      "Name": "Template_Player_Jump_R",
+      "Type ID": 0,
+
+      "Frame Count": 6,
+      "FPS": 10
+    },
+    {
+      "Name": "Template_Player_Landing_L",
+      "Type ID": 0,
+
+      "Frame Count": 9,
+      "FPS": 30
+    },
+    {
+      "Name": "Template_Player_Landing_R",
+      "Type ID": 0,
+
+      "Frame Count": 9,
+      "FPS": 30
+    },
+    {
+      "Name": "Template_Player_Run_L",
+      "Type ID": 0,
+
+      "Frame Count": 8,
+      "FPS": 10
+    },
+    {
+      "Name": "Template_Player_Run_R",
+      "Type ID": 0,
+
+      "Frame Count": 8,
+      "FPS": 10
+    },
+    {
+      "Name": "Template_Player_Wall_Landing_L",
+      "Type ID": 0,
+
+      "Frame Count": 6,
+      "FPS": 10
+    },
+    {
+      "Name": "Template_Player_Wall_Landing_R",
+      "Type ID": 0,
+
+      "Frame Count": 6,
+      "FPS": 10
+    },
+    {
+      "Name": "Template_Player_Wall_Sliding_L",
+      "Type ID": 0,
+
+      "Frame Count": 3,
+      "FPS": 10
+    },
+    {
+      "Name": "Template_Player_Wall_Sliding_R",
+      "Type ID": 0,
+
+      "Frame Count": 3,
+      "FPS": 10
+    },
+
+
+
+    {
+      "Name": "UI_01_Button_00_Lock",
+      "Type ID": 0,
+
+      "Frame Count": 4,
+      "FPS": 10
+    },
+    {
+      "Name": "UI_01_Button_00_Press",
+      "Type ID": 0,
+
+      "Frame Count": 4,
+      "FPS": 10
+    },
+    {
+      "Name": "UI_01_Button_00_Release",
+      "Type ID": 0,
+
+      "Frame Count": 4,
+      "FPS": 10
+    },
+    {
+      "Name": "UI_01_Button_01_Lock",
+      "Type ID": 0,
+
+      "Frame Count": 4,
+      "FPS": 10
+    },
+    {
+      "Name": "UI_01_Button_01_Press",
+      "Type ID": 0,
+
+      "Frame Count": 4,
+      "FPS": 10
+    },
+    {
+      "Name": "UI_01_Button_01_Release",
+      "Type ID": 0,
+
+      "Frame Count": 4,
+      "FPS": 10
+    },
+    {
+      "Name": "UI_01_Button_02_Lock",
+      "Type ID": 0,
+
+      "Frame Count": 4,
+      "FPS": 10
+    },
+    {
+      "Name": "UI_01_Button_02_Press",
+      "Type ID": 0,
+
+      "Frame Count": 4,
+      "FPS": 10
+    },
+    {
+      "Name": "UI_01_Button_02_Release",
+      "Type ID": 0,
+
+      "Frame Count": 4,
+      "FPS": 10
+    },
+    {
+      "Name": "UI_01_Button_03_Lock",
+      "Type ID": 0,
+
+      "Frame Count": 4,
+      "FPS": 10
+    },
+    {
+      "Name": "UI_01_Button_03_Press",
+      "Type ID": 0,
+
+      "Frame Count": 4,
+      "FPS": 10
+    },
+    {
+      "Name": "UI_01_Button_03_Release",
+      "Type ID": 0,
+
+      "Frame Count": 4,
+      "FPS": 10
+    },
+    {
+      "Name": "UI_01_Button_04_Lock",
+      "Type ID": 0,
+
+      "Frame Count": 4,
+      "FPS": 10
+    },
+    {
+      "Name": "UI_01_Button_04_Press",
+      "Type ID": 0,
+
+      "Frame Count": 4,
+      "FPS": 10
+    },
+    {
+      "Name": "UI_01_Button_04_Release",
+      "Type ID": 0,
+
+      "Frame Count": 4,
+      "FPS": 10
+    },
+    {
+      "Name": "UI_01_Button_05_Lock",
+      "Type ID": 0,
+
+      "Frame Count": 4,
+      "FPS": 10
+    },
+    {
+      "Name": "UI_01_Button_05_Press",
+      "Type ID": 0,
+
+      "Frame Count": 4,
+      "FPS": 10
+    },
+    {
+      "Name": "UI_01_Button_05_Release",
+      "Type ID": 0,
+
+      "Frame Count": 4,
+      "FPS": 10
+    },
+
+    {
+      "Name": "UI_01_Cursor_00",
+      "Type ID": 0,
+
+      "Frame Count": 4,
+      "FPS": 10
+    },
+    {
+      "Name": "UI_01_Cursor_01",
+      "Type ID": 0,
+
+      "Frame Count": 4,
+      "FPS": 10
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "Manifests": [
+    {
+      "Name": "Example_Manifest_00",
+      "Description": "Sample manifest to demonstrate loading several textures to a heap.",
+
+      "Textures": [
+        {
+          "Texture Name": "BE_2DTestingTexture",
+          "Texture Filepath": "../../BEngine/Resources/Textures/BE_2DTestingTexture.dds",
+          "Frames Filepath": "../../BEngine/Resources/Textures/BE_2DTestingTexture.json"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,584 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{224342c7-0686-4cae-a7eb-54106912eeb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Functionality">
+      <UniqueIdentifier>{90706169-9ae3-4788-8ff8-76cee59ad2a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Utils">
+      <UniqueIdentifier>{6f360f04-1e65-48ef-ad80-d553f2ccde1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Managers">
+      <UniqueIdentifier>{f70ca91d-05e4-41f0-9464-619455d1cf86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Functionality\Timing">
+      <UniqueIdentifier>{0f7381e6-9026-4585-a7f5-e7a3b9dbe861}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{7608dbee-1c4d-44c7-b8e3-2310b2557b75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\VS">
+      <UniqueIdentifier>{c837f5b3-afc4-475a-b399-24717b7b4ef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\PS">
+      <UniqueIdentifier>{b399ae93-d0bc-4bd0-befd-87ba7d486f3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\GS">
+      <UniqueIdentifier>{2da8ad48-a4b6-464a-8888-0bd7983bebee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Other">
+      <UniqueIdentifier>{ea4a0bb3-7675-4055-b35e-76b5137834f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\CS">
+      <UniqueIdentifier>{97a60a05-5ad2-4353-9e4b-ec05c1a64e8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Functionality\Collision">
+      <UniqueIdentifier>{9441b7b0-b2a6-412a-8064-b72939c8451b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Utils\Misc">
+      <UniqueIdentifier>{43c4082b-8952-4d4c-afa8-3229429cd527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Functionality\Cameras">
+      <UniqueIdentifier>{6f579de0-0c0e-4656-a3df-421f50a4204e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Utils\General">
+      <UniqueIdentifier>{a7f3a619-efb8-47a3-aff4-65d8b55ece76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Utils\D3D">
+      <UniqueIdentifier>{79fdc9e6-91b7-45cb-987a-9a08be99d90c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Functionality\AI">
+      <UniqueIdentifier>{ea002acc-0988-41d4-9012-feba82af7aaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Functionality\AI\Fuzzy Logic">
+      <UniqueIdentifier>{78737065-7ddd-43ed-9d99-ee1182a2b06c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Functionality\AI\Fuzzy Logic\Members">
+      <UniqueIdentifier>{022a41aa-f63e-4b7a-8ac6-a22184dd5742}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Functionality\AI\Fuzzy Logic\Sets &amp; Rules">
+      <UniqueIdentifier>{00e6f783-e220-4b6c-bef1-004353ac309c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Functionality\AI\Fuzzy Logic\Models">
+      <UniqueIdentifier>{8189297c-4d31-4aad-b505-b40432e068d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Functionality\Other">
+      <UniqueIdentifier>{f07f8305-189c-49e5-8b41-6216445730aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Functionality\Actors">
+      <UniqueIdentifier>{2bd4422a-91f1-4fd8-a355-101c26ac4c8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Functionality\AI\Shared">
+      <UniqueIdentifier>{e93e1a86-71a3-4857-9c1f-8a56eb05c805}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Functionality\AI\Behaviour Tree">
+      <UniqueIdentifier>{d542ad4a-27fe-4256-9861-b4e3d724e548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Types">
+      <UniqueIdentifier>{5f351156-9428-4f6b-993a-ba03d8537996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine Modifiables">
+      <UniqueIdentifier>{ad54f50f-6321-457c-bcce-7ee890b1b779}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Functionality\UI">
+      <UniqueIdentifier>{82105142-e171-4dd9-8a18-ac0c6f94b888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Functionality\Modules">
+      <UniqueIdentifier>{90052528-6662-4dfc-808e-74ea36fd9f73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Functionality\Modules\Sprites &amp; Animation">
+      <UniqueIdentifier>{3a864ecc-682b-49d0-aa3d-4ce50f5a8f57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Functionality\Modules\Physics">
+      <UniqueIdentifier>{0556c35a-5d19-42d6-9421-7a13669d6ef2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Managers\Graphics">
+      <UniqueIdentifier>{7e4e4cfd-e9ed-41d3-91d7-015921d6b2e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Managers\Audio &amp; Inputs">
+      <UniqueIdentifier>{6d818c40-470b-4368-8062-dac6a8791118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Managers\Resources">
+      <UniqueIdentifier>{b38497df-c2b8-427d-b06e-0f021b80da6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Functionality\Samples">
+      <UniqueIdentifier>{558be19b-5d93-433f-baa6-c28be2d6d4ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\App Core">
+      <UniqueIdentifier>{49d8e6bc-6e68-44b3-9322-92519c5a0f21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine Modifiables\Includes">
+      <UniqueIdentifier>{9675052e-11e8-4b5f-8dc6-424328ecc360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Includes">
+      <UniqueIdentifier>{6e11262a-c858-4229-be18-81bb2506dbe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{00f997e8-cb3c-4159-aed8-990096c4a110}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Functionality">
+      <UniqueIdentifier>{4a3f50d1-a275-4322-a32f-c52173d2ec51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Functionality\AI">
+      <UniqueIdentifier>{0f03b225-80d8-4464-9a60-6f907b76154b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Functionality\AI\Fuzzy Logic Models">
+      <UniqueIdentifier>{55a51362-4edd-4c57-9a50-6d5e67a3601a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Types">
+      <UniqueIdentifier>{1c724acb-6f9a-4429-881e-42e6108ca535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Definitions">
+      <UniqueIdentifier>{84210b8a-eafa-4ea4-ac7a-13b54c7657d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Modes">
+      <UniqueIdentifier>{e3cb12f3-08f5-43e4-90ea-ea73390dbd5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Modes\Debug">
+      <UniqueIdentifier>{141ff7a7-48eb-4ba9-9f02-76cf2fcfa1bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Game Objects">
+      <UniqueIdentifier>{e20e52a6-cfe9-4210-af6a-13dfdb1773e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Game Objects\Testing">
+      <UniqueIdentifier>{1a7e4a6a-dfa3-458e-962c-f1cc93f666c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Game Objects\Player">
+      <UniqueIdentifier>{ec972788-f499-4eca-89f4-4f31e3d902be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Game Objects\Enemies">
+      <UniqueIdentifier>{b85999a3-3bc6-4e1b-8db0-9c43df66c890}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Game Objects\Projectiles">
+      <UniqueIdentifier>{c4b9bd47-f3f0-4ac9-bfa2-07fb7c7b1d40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Game Objects\Terrain">
+      <UniqueIdentifier>{fe703a19-3f69-4b70-a805-72f97449668f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Managers">
+      <UniqueIdentifier>{bb5a6af8-43a3-4c4a-a125-9cf2ec6374a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Includes">
+      <UniqueIdentifier>{9361e2d9-59b1-4b85-ba25-ae97ec391f41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Game Resources">
+      <UniqueIdentifier>{5fa039eb-4c61-49cd-b445-0fc5ce874298}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Game Resources\Files">
+      <UniqueIdentifier>{6bdd24f8-43b3-4b4d-8f0e-c8d24f0d906a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Game Resources\Levels">
+      <UniqueIdentifier>{ae0e179d-dc8d-49d1-a782-e1782b6b463c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demo">
+      <UniqueIdentifier>{bac9c8a3-e329-485a-9b03-1b2596a1a957}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Managers\Physics">
+      <UniqueIdentifier>{65f3bd05-eb71-42c3-b63d-5755e82c4d9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Helpers">
+      <UniqueIdentifier>{dedebdbe-4046-4724-a32d-89a15e355c6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine Modifiables\Manifests">
+      <UniqueIdentifier>{ac8446a2-add0-4b15-a8a1-0b3639804109}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Functionality\Modules\UI">
+      <UniqueIdentifier>{05bcff31-f9ae-444a-bd68-f4ef375d0ec3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Managers\UI">
+      <UniqueIdentifier>{701966e1-8e51-4738-885b-231cef490d13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine Modifiables\Types">
+      <UniqueIdentifier>{ba20e0d2-0ad0-4f47-990d-d9099f5ec4c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine Modifiables\Functions">
+      <UniqueIdentifier>{ed22f603-49d1-4d15-8f68-7afe1cfaea86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine Modifiables\Game">
+      <UniqueIdentifier>{139f48ec-ee69-4ae5-bc7f-329a4f1ce43c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Types\Physics">
+      <UniqueIdentifier>{b95b375f-b357-4056-af81-ddd0189e065d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Types\General">
+      <UniqueIdentifier>{b6cd7815-6d6e-476f-97cc-9aca4ada6eda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Types\Graphics">
+      <UniqueIdentifier>{4d3d07c0-1a38-4458-8c92-6cd204b01ddd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Utils\Libs + Programs">
+      <UniqueIdentifier>{a5b47b41-f186-47bc-a8e3-16e4ba242ffa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Types\Box2D">
+      <UniqueIdentifier>{d35f724b-f3cb-4b4a-9f2d-e6ee36fba07b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demo\Entities">
+      <UniqueIdentifier>{e92d851f-ddc3-4040-9057-8fd3f69d632b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demo\Mode">
+      <UniqueIdentifier>{518f4a7d-9a9f-4c62-a8d2-5c4481e16249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demo\UI">
+      <UniqueIdentifier>{f0613990-6a11-4bbd-877e-4752da4c6225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demo\Demo Comps">
+      <UniqueIdentifier>{892863e3-a411-42d0-97a1-5c8b1d308c45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Includes">
+      <UniqueIdentifier>{584c9a76-e49b-41cc-95f3-cab7a847f690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Includes\Texture Enums">
+      <UniqueIdentifier>{7753c8e0-8976-4ebd-bf26-516f61fa3e1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Includes\Includes">
+      <UniqueIdentifier>{0a275083-1c08-49eb-ace4-8ba44af027fc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\BEngine\Core\D3D12_App.cpp">
+      <Filter>Engine\App Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BEngine\Core\main.cpp">
+      <Filter>Engine\App Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BEngine\Functionality\Actors\Actor2D_Interface.cpp">
+      <Filter>Engine\Functionality\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BEngine\Functionality\AI\Behaviour_Trees\BT_Node_Full.cpp">
+      <Filter>Engine\Functionality\AI\Behaviour Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BEngine\Functionality\AI\Fuzzy_Logic\FL_Rules.cpp">
+      <Filter>Engine\Functionality\AI\Fuzzy Logic\Sets &amp; Rules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BEngine\Functionality\AI\Fuzzy_Logic\FL_Set.cpp">
+      <Filter>Engine\Functionality\AI\Fuzzy Logic\Sets &amp; Rules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BEngine\Functionality\AI\Fuzzy_Logic\FL_Model.cpp">
+      <Filter>Engine\Functionality\AI\Fuzzy Logic\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BEngine\Functionality\AI\Fuzzy_Logic\FL_Member_Interface.cpp">
+      <Filter>Engine\Functionality\AI\Fuzzy Logic\Members</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BEngine\Functionality\AI\Fuzzy_Logic\FL_Members.cpp">
+      <Filter>Engine\Functionality\AI\Fuzzy Logic\Members</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BEngine\Functionality\Camera\SceneTransform.cpp">
+      <Filter>Engine\Functionality\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BEngine\Functionality\Modules\Module_Interface.cpp">
+      <Filter>Engine\Functionality\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BEngine\Functionality\Modules\Module_AnimatedSprite.cpp">
+      <Filter>Engine\Functionality\Modules\Sprites &amp; Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BEngine\Functionality\Modules\Module_Sprite.cpp">
+      <Filter>Engine\Functionality\Modules\Sprites &amp; Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BEngine\Functionality\Modules\Module_Box2D_Body.cpp">
+      <Filter>Engine\Functionality\Modules\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BEngine\Functionality\Samples\Sample_PhysicsMouseCollider.cpp">
+      <Filter>Engine\Functionality\Samples</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BEngine\Functionality\Timing\GameTimer.cpp">
+      <Filter>Engine\Functionality\Timing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BEngine\Managers\Mgr_Input.cpp">
+      <Filter>Engine\Managers\Audio &amp; Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BEngine\Managers\Mgr_Audio.cpp">
+      <Filter>Engine\Managers\Audio &amp; Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BEngine\Managers\Mgr_Graphics.cpp">
+      <Filter>Engine\Managers\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BEngine\Managers\Mgr_Box2DPhysics.cpp">
+      <Filter>Engine\Managers\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BEngine\Managers\Mgr_Modes.cpp">
+      <Filter>Engine\Managers\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BEngine\Managers\Mgr_TextureResources.cpp">
+      <Filter>Engine\Managers\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BEngine\Utils\Utils_D3D.cpp">
+      <Filter>Engine\Utils\D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BEngine\Utils\Utils_D3D_Debug.cpp">
+      <Filter>Engine\Utils\D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BEngine\Utils\Utils_General.cpp">
+      <Filter>Engine\Utils\General</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BEngine\Utils\MathHelper.cpp">
+      <Filter>Engine\Utils\General</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BEngine\Functionality\Modules\Module_UI_MouseCollider.cpp">
+      <Filter>Engine\Functionality\Modules\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BEngine\Managers\Mgr_UI.cpp">
+      <Filter>Engine\Managers\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BEngine\Custom_Functions\Custom_RenderFunctions.cpp">
+      <Filter>Engine Modifiables\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BEngine\Core\Game.cpp">
+      <Filter>Engine Modifiables\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BEngine\Types\BE_SharedTypes.cpp">
+      <Filter>Engine\Types\General</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BEngine\Types\SpriteBatch_Wrapper.cpp">
+      <Filter>Engine\Types\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BEngine\Types\FrameResources.cpp">
+      <Filter>Engine\Types\General</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BEngine\Types\ContactListener_BE_Default.cpp">
+      <Filter>Engine\Types\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BEngine\Types\Box2D_UserData_Interface.cpp">
+      <Filter>Engine\Types\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BEngine\Utils\Utils_Box2D.cpp">
+      <Filter>Engine\Utils\Libs + Programs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BEngine\Types\Box2D_WorldData.cpp">
+      <Filter>Engine\Types\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Mode_Demo.cpp">
+      <Filter>Demo\Mode</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2DPhysics_Demo.cpp">
+      <Filter>Demo\Demo Comps</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Demo.cpp">
+      <Filter>Demo\Demo Comps</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_DemoMenu.cpp">
+      <Filter>Demo\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity_DemoProp.cpp">
+      <Filter>Demo\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity_DemoPlayer.cpp">
+      <Filter>Demo\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\BEngine\Functionality\Modules\Module_UI_SFString.cpp">
+      <Filter>Engine\Functionality\Modules\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\BEngine\Core\D3D12_App.h">
+      <Filter>Engine\App Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Functionality\Actors\Actor2D_Interface.h">
+      <Filter>Engine\Functionality\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Functionality\AI\Behaviour_Trees\BT_Node_Full.h">
+      <Filter>Engine\Functionality\AI\Behaviour Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Functionality\AI\Fuzzy_Logic\FL_Rules.h">
+      <Filter>Engine\Functionality\AI\Fuzzy Logic\Sets &amp; Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Functionality\AI\Fuzzy_Logic\FL_Set.h">
+      <Filter>Engine\Functionality\AI\Fuzzy Logic\Sets &amp; Rules</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Functionality\AI\Fuzzy_Logic\FL_Model.h">
+      <Filter>Engine\Functionality\AI\Fuzzy Logic\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Functionality\AI\Fuzzy_Logic\FL_Member_Interface.h">
+      <Filter>Engine\Functionality\AI\Fuzzy Logic\Members</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Functionality\AI\Fuzzy_Logic\FL_Members.h">
+      <Filter>Engine\Functionality\AI\Fuzzy Logic\Members</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Functionality\Camera\SceneTransform.h">
+      <Filter>Engine\Functionality\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Functionality\Modules\Module_Interface.h">
+      <Filter>Engine\Functionality\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Functionality\Modules\Module_AnimatedSprite.h">
+      <Filter>Engine\Functionality\Modules\Sprites &amp; Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Functionality\Modules\Module_Sprite.h">
+      <Filter>Engine\Functionality\Modules\Sprites &amp; Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Functionality\Modules\Module_Box2D_Body.h">
+      <Filter>Engine\Functionality\Modules\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Functionality\Other\Blackboard.h">
+      <Filter>Engine\Functionality\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Functionality\Samples\Sample_PhysicsMouseCollider.h">
+      <Filter>Engine\Functionality\Samples</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Functionality\Timing\GameTimer.h">
+      <Filter>Engine\Functionality\Timing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Functionality\AI\Shared\AI_Shared.h">
+      <Filter>Engine\Functionality\AI\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Managers\Mgr_Audio.h">
+      <Filter>Engine\Managers\Audio &amp; Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Managers\Mgr_Input.h">
+      <Filter>Engine\Managers\Audio &amp; Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Managers\Mgr_Graphics.h">
+      <Filter>Engine\Managers\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Managers\Mgr_Box2DPhysics.h">
+      <Filter>Engine\Managers\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Managers\Mgr_Modes.h">
+      <Filter>Engine\Managers\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Managers\Mgr_TextureResources.h">
+      <Filter>Engine\Managers\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Helpers\ReadData.h">
+      <Filter>Engine\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Helpers\UploadBuffer.h">
+      <Filter>Engine\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Utils\Utils_D3D.h">
+      <Filter>Engine\Utils\D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Utils\Utils_D3D_Debug.h">
+      <Filter>Engine\Utils\D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Utils\MathHelper.h">
+      <Filter>Engine\Utils\General</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Utils\Utils_General.h">
+      <Filter>Engine\Utils\General</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Utils\Utils_RapidJSON.h">
+      <Filter>Engine\Utils\Libs + Programs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Utils\Utils_Tiled.h">
+      <Filter>Engine\Utils\Libs + Programs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Functionality\Modules\Module_UI_MouseCollider.h">
+      <Filter>Engine\Functionality\Modules\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Managers\Mgr_UI.h">
+      <Filter>Engine\Managers\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Types\FrameResources_Types.h">
+      <Filter>Engine Modifiables\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Helpers\d3dx12.h">
+      <Filter>Engine\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Custom_Functions\Custom_RenderFunctions.h">
+      <Filter>Engine Modifiables\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Core\Game.h">
+      <Filter>Engine Modifiables\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Types\Box2D_UserData_Interface.h">
+      <Filter>Engine\Types\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Types\BE_SharedTypes.h">
+      <Filter>Engine\Types\General</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Types\BE_ReturnCodes.h">
+      <Filter>Engine\Types\General</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Types\SpriteBatch_Wrapper.h">
+      <Filter>Engine\Types\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Types\SpriteBatch_Extended.h">
+      <Filter>Engine\Types\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Types\ModeInterface.h">
+      <Filter>Engine\Types\General</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Types\FrameResources.h">
+      <Filter>Engine\Types\General</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Types\ContactListener_BE_Default.h">
+      <Filter>Engine\Types\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Utils\Utils_Box2D.h">
+      <Filter>Engine\Utils\Libs + Programs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Types\Box2D_WorldData.h">
+      <Filter>Engine\Types\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Types\Box2D_Listener_Interfaces.h">
+      <Filter>Engine\Types\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Mode_Demo.h">
+      <Filter>Demo\Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Demo.h">
+      <Filter>Demo\Demo Comps</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2DPhysics_Demo.h">
+      <Filter>Demo\Demo Comps</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_DemoMenu.h">
+      <Filter>Demo\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity_DemoProp.h">
+      <Filter>Demo\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity_DemoPlayer.h">
+      <Filter>Demo\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Functionality\Modules\Module_UI_SFString.h">
+      <Filter>Engine\Functionality\Modules\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Project_Includes\Texture_Enums\BE_2DTestingTextureEnums.h">
+      <Filter>Project Includes\Texture Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Project_Includes\Texture_Enums\Pixel_Sidescroller_City_Enums.h">
+      <Filter>Project Includes\Texture Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Project_Includes\All_Managers.h">
+      <Filter>Project Includes\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Project_Includes\All_Modes.h">
+      <Filter>Project Includes\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Project_Includes\All_Modules.h">
+      <Filter>Project Includes\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Includes\BE_All_Managers.h">
+      <Filter>Engine\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\BEngine\Includes\BE_All_Modules.h">
+      <Filter>Engine\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Project_Includes\GameConfigs.h">
+      <Filter>Project Includes\Includes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\data\shaders\Shader_Include.hlsli">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="bin\data\shaders\PS_Colours.hlsl">
+      <Filter>Shaders\PS</Filter>
+    </None>
+    <None Include="bin\data\shaders\VS_Basic.hlsl">
+      <Filter>Shaders\VS</Filter>
+    </None>
+    <None Include="..\BEngine\Resources\Manifests\Font_Manifest.json">
+      <Filter>Engine Modifiables\Manifests</Filter>
+    </None>
+    <None Include="..\BEngine\Resources\Manifests\Texture_Manifest.json">
+      <Filter>Engine Modifiables\Manifests</Filter>
+    </None>
+    <None Include="bin\data\shaders\PS_Outline.hlsl">
+      <Filter>Shaders\PS</Filter>
+    </None>
+  </ItemGroup>
+</Project>

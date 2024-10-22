@@ -1,0 +1,36 @@
+{
+  "Manifests": [
+    {
+      "Name": "Example_Manifest_00",
+      "Description": "Sample manifest to demonstrate loading several fonts to a heap.",
+      "Heap Index": 0,
+
+      "Fonts": [
+        {
+          "Font Name": "Calibri_12",
+          "Font Filepath": "data/fonts/Calibri_12.spritefont"
+        },
+        {
+          "Font Name": "Calibri_14",
+          "Font Filepath": "data/fonts/Calibri_14.spritefont"
+        },
+        {
+          "Font Name": "Calibri_16",
+          "Font Filepath": "data/fonts/Calibri_16.spritefont"
+        },
+        {
+          "Font Name": "Calibri_18",
+          "Font Filepath": "data/fonts/Calibri_18.spritefont"
+        },
+        {
+          "Font Name": "Calibri_20",
+          "Font Filepath": "data/fonts/Calibri_20.spritefont"
+        },
+        {
+          "Font Name": "Calibri_22",
+          "Font Filepath": "data/fonts/Calibri_22.spritefont"
+        }
+      ]
+    }
+  ]
+}

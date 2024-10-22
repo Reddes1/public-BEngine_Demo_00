@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{3ccfca1e-c26c-47b0-9e4a-8faa0c287639}</ProjectGuid>
+    <RootNamespace>Project1</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)\Project_Files\bin\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LibraryPath>$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(SolutionDir)External_Dependencies\Box2D\build\bin\Debug;$(SolutionDir)External_Dependencies\DirectXTK12\Bin\Desktop_2019_Win10\x64\Debug</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)\Project_Files\bin\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LibraryPath>$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(SolutionDir)External_Dependencies\DirectXTK12\Bin\Desktop_2019_Win10\x64\Release;$(SolutionDir)External_Dependencies\Box2D\build\bin\Release</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)Project_Files\;$(SolutionDir)Project_Includes\;$(SolutionDir)External_Dependencies\DirectXTK12\Inc;$(SolutionDir)External_Dependencies\imgui\;$(SolutionDir)External_Dependencies\Box2D\include;$(SolutionDir)External_Dependencies\RapidJSON\include\rapidjson;$(SolutionDir)BEngine\;$(SolutionDir)BEngine\Core\;$(SolutionDir)BEngine\Functionality\</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>box2d.lib;directXTK12.lib;d3d12.lib;dxgi.lib;dxguid.lib;d3dcompiler.lib;Xinput9_1_0.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(SolutionDir)\Project_Files\bin\$(TargetName)$(TargetExt)</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalIncludeDirectories>$(SolutionDir)Project_Files\;$(SolutionDir)Project_Includes\;$(SolutionDir)External_Dependencies\DirectXTK12\Inc;$(SolutionDir)External_Dependencies\imgui\;$(SolutionDir)External_Dependencies\Box2D\include;$(SolutionDir)External_Dependencies\RapidJSON\include\rapidjson;$(SolutionDir)BEngine\;$(SolutionDir)BEngine\Core\;$(SolutionDir)BEngine\Functionality\</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <OutputFile>$(SolutionDir)\Project_Files\bin\$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalDependencies>box2d.lib;directXTK12.lib;d3d12.lib;dxgi.lib;dxguid.lib;d3dcompiler.lib;Xinput9_1_0.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\BEngine\Core\D3D12_App.cpp" />
+    <ClCompile Include="..\BEngine\Core\Game.cpp" />
+    <ClCompile Include="..\BEngine\Core\main.cpp" />
+    <ClCompile Include="..\BEngine\Custom_Functions\Custom_RenderFunctions.cpp" />
+    <ClCompile Include="..\BEngine\Functionality\Actors\Actor2D_Interface.cpp" />
+    <ClCompile Include="..\BEngine\Functionality\AI\Behaviour_Trees\BT_Node_Full.cpp" />
+    <ClCompile Include="..\BEngine\Functionality\AI\Fuzzy_Logic\FL_Members.cpp" />
+    <ClCompile Include="..\BEngine\Functionality\AI\Fuzzy_Logic\FL_Member_Interface.cpp" />
+    <ClCompile Include="..\BEngine\Functionality\AI\Fuzzy_Logic\FL_Model.cpp" />
+    <ClCompile Include="..\BEngine\Functionality\AI\Fuzzy_Logic\FL_Rules.cpp" />
+    <ClCompile Include="..\BEngine\Functionality\AI\Fuzzy_Logic\FL_Set.cpp" />
+    <ClCompile Include="..\BEngine\Functionality\Camera\SceneTransform.cpp" />
+    <ClCompile Include="..\BEngine\Functionality\Modules\Module_AnimatedSprite.cpp" />
+    <ClCompile Include="..\BEngine\Functionality\Modules\Module_Box2D_Body.cpp" />
+    <ClCompile Include="..\BEngine\Functionality\Modules\Module_Interface.cpp" />
+    <ClCompile Include="..\BEngine\Functionality\Modules\Module_UI_SFString.cpp" />
+    <ClCompile Include="..\BEngine\Functionality\Modules\Module_Sprite.cpp" />
+    <ClCompile Include="..\BEngine\Functionality\Modules\Module_UI_MouseCollider.cpp" />
+    <ClCompile Include="..\BEngine\Functionality\Samples\Sample_PhysicsMouseCollider.cpp" />
+    <ClCompile Include="..\BEngine\Functionality\Timing\GameTimer.cpp" />
+    <ClCompile Include="..\BEngine\Managers\Mgr_Audio.cpp" />
+    <ClCompile Include="..\BEngine\Managers\Mgr_Box2DPhysics.cpp" />
+    <ClCompile Include="..\BEngine\Managers\Mgr_Graphics.cpp" />
+    <ClCompile Include="..\BEngine\Managers\Mgr_Input.cpp" />
+    <ClCompile Include="..\BEngine\Managers\Mgr_Modes.cpp" />
+    <ClCompile Include="..\BEngine\Managers\Mgr_TextureResources.cpp" />
+    <ClCompile Include="..\BEngine\Managers\Mgr_UI.cpp" />
+    <ClCompile Include="..\BEngine\Types\BE_SharedTypes.cpp" />
+    <ClCompile Include="..\BEngine\Types\Box2D_UserData_Interface.cpp" />
+    <ClCompile Include="..\BEngine\Types\Box2D_WorldData.cpp" />
+    <ClCompile Include="..\BEngine\Types\ContactListener_BE_Default.cpp" />
+    <ClCompile Include="..\BEngine\Types\FrameResources.cpp" />
+    <ClCompile Include="..\BEngine\Types\SpriteBatch_Wrapper.cpp" />
+    <ClCompile Include="..\BEngine\Utils\MathHelper.cpp" />
+    <ClCompile Include="..\BEngine\Utils\Utils_Box2D.cpp" />
+    <ClCompile Include="..\BEngine\Utils\Utils_D3D.cpp" />
+    <ClCompile Include="..\BEngine\Utils\Utils_D3D_Debug.cpp" />
+    <ClCompile Include="..\BEngine\Utils\Utils_General.cpp" />
+    <ClCompile Include="Box2DPhysics_Demo.cpp" />
+    <ClCompile Include="Entity_DemoPlayer.cpp" />
+    <ClCompile Include="Entity_DemoProp.cpp" />
+    <ClCompile Include="Mode_Demo.cpp" />
+    <ClCompile Include="Scene_Demo.cpp" />
+    <ClCompile Include="UI_DemoMenu.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\BEngine\Core\D3D12_App.h" />
+    <ClInclude Include="..\BEngine\Core\Game.h" />
+    <ClInclude Include="..\BEngine\Custom_Functions\Custom_RenderFunctions.h" />
+    <ClInclude Include="..\BEngine\Functionality\Actors\Actor2D_Interface.h" />
+    <ClInclude Include="..\BEngine\Functionality\AI\Behaviour_Trees\BT_Node_Full.h" />
+    <ClInclude Include="..\BEngine\Functionality\AI\Fuzzy_Logic\FL_Members.h" />
+    <ClInclude Include="..\BEngine\Functionality\AI\Fuzzy_Logic\FL_Member_Interface.h" />
+    <ClInclude Include="..\BEngine\Functionality\AI\Fuzzy_Logic\FL_Model.h" />
+    <ClInclude Include="..\BEngine\Functionality\AI\Fuzzy_Logic\FL_Rules.h" />
+    <ClInclude Include="..\BEngine\Functionality\AI\Fuzzy_Logic\FL_Set.h" />
+    <ClInclude Include="..\BEngine\Functionality\AI\Shared\AI_Shared.h" />
+    <ClInclude Include="..\BEngine\Functionality\Camera\SceneTransform.h" />
+    <ClInclude Include="..\BEngine\Functionality\Modules\Module_AnimatedSprite.h" />
+    <ClInclude Include="..\BEngine\Functionality\Modules\Module_Box2D_Body.h" />
+    <ClInclude Include="..\BEngine\Functionality\Modules\Module_Interface.h" />
+    <ClInclude Include="..\BEngine\Functionality\Modules\Module_UI_SFString.h" />
+    <ClInclude Include="..\BEngine\Functionality\Modules\Module_Sprite.h" />
+    <ClInclude Include="..\BEngine\Functionality\Modules\Module_UI_MouseCollider.h" />
+    <ClInclude Include="..\BEngine\Functionality\Other\Blackboard.h" />
+    <ClInclude Include="..\BEngine\Functionality\Samples\Sample_PhysicsMouseCollider.h" />
+    <ClInclude Include="..\BEngine\Functionality\Timing\GameTimer.h" />
+    <ClInclude Include="..\BEngine\Helpers\d3dx12.h" />
+    <ClInclude Include="..\BEngine\Helpers\ReadData.h" />
+    <ClInclude Include="..\BEngine\Helpers\UploadBuffer.h" />
+    <ClInclude Include="..\BEngine\Includes\BE_All_Managers.h" />
+    <ClInclude Include="..\BEngine\Includes\BE_All_Modules.h" />
+    <ClInclude Include="..\BEngine\Managers\Mgr_Audio.h" />
+    <ClInclude Include="..\BEngine\Managers\Mgr_Box2DPhysics.h" />
+    <ClInclude Include="..\BEngine\Managers\Mgr_Graphics.h" />
+    <ClInclude Include="..\BEngine\Managers\Mgr_Input.h" />
+    <ClInclude Include="..\BEngine\Managers\Mgr_Modes.h" />
+    <ClInclude Include="..\BEngine\Managers\Mgr_TextureResources.h" />
+    <ClInclude Include="..\BEngine\Managers\Mgr_UI.h" />
+    <ClInclude Include="..\BEngine\Types\Box2D_Listener_Interfaces.h" />
+    <ClInclude Include="..\BEngine\Types\Box2D_WorldData.h" />
+    <ClInclude Include="..\BEngine\Types\ContactListener_BE_Default.h" />
+    <ClInclude Include="..\BEngine\Types\Box2D_UserData_Interface.h" />
+    <ClInclude Include="..\BEngine\Types\BE_ReturnCodes.h" />
+    <ClInclude Include="..\BEngine\Types\BE_SharedTypes.h" />
+    <ClInclude Include="..\BEngine\Types\FrameResources.h" />
+    <ClInclude Include="..\BEngine\Types\FrameResources_Types.h" />
+    <ClInclude Include="..\BEngine\Types\ModeInterface.h" />
+    <ClInclude Include="..\BEngine\Types\SpriteBatch_Extended.h" />
+    <ClInclude Include="..\BEngine\Types\SpriteBatch_Wrapper.h" />
+    <ClInclude Include="..\BEngine\Utils\MathHelper.h" />
+    <ClInclude Include="..\BEngine\Utils\Utils_Box2D.h" />
+    <ClInclude Include="..\BEngine\Utils\Utils_D3D.h" />
+    <ClInclude Include="..\BEngine\Utils\Utils_D3D_Debug.h" />
+    <ClInclude Include="..\BEngine\Utils\Utils_General.h" />
+    <ClInclude Include="..\BEngine\Utils\Utils_RapidJSON.h" />
+    <ClInclude Include="..\BEngine\Utils\Utils_Tiled.h" />
+    <ClInclude Include="..\Project_Includes\All_Managers.h" />
+    <ClInclude Include="..\Project_Includes\All_Modes.h" />
+    <ClInclude Include="..\Project_Includes\All_Modules.h" />
+    <ClInclude Include="..\Project_Includes\GameConfigs.h" />
+    <ClInclude Include="..\Project_Includes\Texture_Enums\BE_2DTestingTextureEnums.h" />
+    <ClInclude Include="..\Project_Includes\Texture_Enums\Pixel_Sidescroller_City_Enums.h" />
+    <ClInclude Include="Box2DPhysics_Demo.h" />
+    <ClInclude Include="Entity_DemoPlayer.h" />
+    <ClInclude Include="Entity_DemoProp.h" />
+    <ClInclude Include="Mode_Demo.h" />
+    <ClInclude Include="Scene_Demo.h" />
+    <ClInclude Include="UI_DemoMenu.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\BEngine\Resources\Manifests\Font_Manifest.json" />
+    <None Include="..\BEngine\Resources\Manifests\Texture_Manifest.json" />
+    <None Include="bin\data\shaders\PS_Colours.hlsl">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="bin\data\shaders\VS_Basic.hlsl">
+      <FileType>Document</FileType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\data\shaders\Shader_Include.hlsli" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\data\shaders\PS_Outline.hlsl">
+      <FileType>Document</FileType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

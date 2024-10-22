@@ -1,0 +1,23 @@
+{
+  "Manifests": [
+    {
+      "Name": "Example_Manifest_00",
+      "Description": "Sample manifest to demonstrate loading several textures to a heap.",
+      "Default_Heap_Index": 0,
+
+      "Textures": [
+        {
+          "Texture_Name": "BE_2DTestingTexture",
+          "Texture_Filepath": "../../BEngine/Resources/Textures/BE_2DTestingTexture.dds",
+          "Frames_Filepath": "../../BEngine/Resources/Textures/BE_2DTestingTexture.json",
+          "Animations_Filepath": "../../BEngine/Resources/Textures/BE_2DTestingTexture_Anims.json"
+        },
+        {
+          "Texture_Name": "Pixel_Sidescroller_City",
+          "Texture_Filepath": "../../BEngine/Resources/Textures/Pixel_Sidescroller_City.dds",
+          "Frames_Filepath": "../../BEngine/Resources/Textures/Pixel_Sidescroller_City.json"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,552 @@
+{
+    "Fuzzy Logic Configurations": [
+        {
+            "Configuration Name": "Individual_Unit_Behaviours_00",
+            "Output Set Name": "Action_State",
+            "Max Key Length": 3,
+            "Max Key Depth": 3,
+
+            "Rules Count": 27,
+
+            "Input Sets": [
+                {
+                    "Set Name": "Unit_HP",
+                    "Member Count": 3,
+
+                    "Members": [
+                        {
+                            "Member Name": "LOW",
+                            "Member Shape ID": 1,
+
+                            "Values": [
+                                0.0,
+                                0.0,
+                                10.0,
+                                35.0
+                            ]
+                        },
+                        {
+                            "Member Name": "MID",
+                            "Member Shape ID": 1,
+
+                            "Values": [
+                                20.0,
+                                35.0,
+                                65.0,
+                                80.0
+                            ]
+                        },
+                        {
+                            "Member Name": "HIGH",
+                            "Member Shape ID": 1,
+
+                            "Values": [
+                                65.0,
+                                90.0,
+                                100.0,
+                                100.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Set Name": "Target_HP",
+                    "Member Count": 3,
+
+                    "Members": [
+                        {
+                            "Member Name": "LOW",
+                            "Member Shape ID": 1,
+
+                            "Values": [
+                                0.0,
+                                0.0,
+                                10.0,
+                                35.0
+                            ]
+                        },
+                        {
+                            "Member Name": "MID",
+                            "Member Shape ID": 1,
+
+                            "Values": [
+                                20.0,
+                                35.0,
+                                65.0,
+                                80.0
+                            ]
+                        },
+                        {
+                            "Member Name": "HIGH",
+                            "Member Shape ID": 1,
+
+                            "Values": [
+                                65.0,
+                                90.0,
+                                100.0,
+                                100.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Set Name": "Distance",
+                    "Member Count": 3,
+
+                    "Members": [
+                        {
+                            "Member Name": "NEAR",
+                            "Member Shape ID": 0,
+
+                            "Values": [
+                                0.0,
+                                0.0,
+                                4.0
+                            ]
+                        },
+                        {
+                            "Member Name": "MID",
+                            "Member Shape ID": 0,
+
+                            "Values": [
+                                2.0,
+                                5.0,
+                                8.0
+                            ]
+                        },
+                        {
+                            "Member Name": "FAR",
+                            "Member Shape ID": 0,
+
+                            "Values": [
+                                6.0,
+                                10.0,
+                                10.0
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Output Set": [
+                {
+                    "Output Name": "AGGRO",
+                    "Output State ID": 0
+                },
+                {
+                    "Output Name": "BALANCED",
+                    "Output State ID": 1
+                },
+                {
+                    "Output Name": "DEFENSIVE",
+                    "Output State ID": 2
+                }
+            ],
+            "Rule Keys": [
+                "000",
+                "001",
+                "002",
+                "010",
+                "011",
+                "012",
+                "020",
+                "021",
+                "022",
+
+                "100",
+                "101",
+                "102",
+                "110",
+                "111",
+                "112",
+                "120",
+                "121",
+                "122",
+
+                "200",
+                "201",
+                "202",
+                "210",
+                "211",
+                "212",
+                "220",
+                "221",
+                "222"
+            ],
+            "Rule Outputs": [
+                1,
+                1,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                1,
+
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "Configuration Name": "Commander_Behaviours_00",
+            "Output Set Name": "Action_State",
+            "Max Key Length": 4,
+            "Max Key Depth": 3,
+
+            "Rules Count": 111,
+
+            "Input Sets": [
+                {
+                    "Set Name": "Team_HP",
+                    "Member Count": 3,
+
+                    "Members": [
+                        {
+                            "Member Name": "LOW",
+                            "Member Shape ID": 1,
+
+                            "Values": [
+                                0.0,
+                                0.0,
+                                10.0,
+                                35.0
+                            ]
+                        },
+                        {
+                            "Member Name": "MID",
+                            "Member Shape ID": 1,
+
+                            "Values": [
+                                20.0,
+                                35.0,
+                                65.0,
+                                80.0
+                            ]
+                        },
+                        {
+                            "Member Name": "HIGH",
+                            "Member Shape ID": 1,
+
+                            "Values": [
+                                65.0,
+                                90.0,
+                                100.0,
+                                100.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Set Name": "Enemy_Team_HP",
+                    "Member Count": 3,
+                    "Members": [
+                        {
+                            "Member Name": "LOW",
+                            "Member Shape ID": 1,
+
+                            "Values": [
+                                0.0,
+                                0.0,
+                                10.0,
+                                35.0
+                            ]
+                        },
+                        {
+                            "Member Name": "MID",
+                            "Member Shape ID": 1,
+
+                            "Values": [
+                                20.0,
+                                35.0,
+                                65.0,
+                                80.0
+                            ]
+                        },
+                        {
+                            "Member Name": "HIGH",
+                            "Member Shape ID": 1,
+
+                            "Values": [
+                                65.0,
+                                90.0,
+                                100.0,
+                                100.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Set Name": "Unit_Count",
+                    "Member Count": 3,
+
+                    "Members": [
+                        {
+                            "Member Name": "LOW",
+                            "Member Shape ID": 0,
+
+                            "Values": [
+                                1.0,
+                                1.0,
+                                3.0
+                            ]
+                        },
+                        {
+                            "Member Name": "MID",
+                            "Member Shape ID": 0,
+
+                            "Values": [
+                                2.5,
+                                3.5,
+                                4.5
+                            ]
+                        },
+                        {
+                            "Member Name": "HIGH",
+                            "Member Shape ID": 0,
+
+                            "Values": [
+                                4.0,
+                                6.0,
+                                6.0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Set Name": "Enemy_Unit_Count",
+                    "Member Count": 3,
+
+                    "Members": [
+                        {
+                            "Member Name": "LOW",
+                            "Member Shape ID": 0,
+
+                            "Values": [
+                                1.0,
+                                1.0,
+                                3.0
+                            ]
+                        },
+                        {
+                            "Member Name": "MID",
+                            "Member Shape ID": 0,
+
+                            "Values": [
+                                2.5,
+                                3.5,
+                                4.5
+                            ]
+                        },
+                        {
+                            "Member Name": "HIGH",
+                            "Member Shape ID": 0,
+
+                            "Values": [
+                                4.0,
+                                6.0,
+                                6.0
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "Output Set": [
+                {
+                    "Output Name": "AGGRO",
+                    "Output State ID": 0
+                },
+                {
+                    "Output Name": "BALANCED",
+                    "Output State ID": 1
+                },
+                {
+                    "Output Name": "DEFENSIVE",
+                    "Output State ID": 2
+                }
+            ],
+            "Rule Keys": [
+                "0000",
+                "0001",
+                "0002",
+                "0010",
+                "0011",
+                "0012",
+                "0020",
+                "0021",
+                "0022",
+                "0100",
+                "0101",
+                "0102",
+                "0110",
+                "0111",
+                "0112",
+                "0120",
+                "0121",
+                "0122",
+                "0200",
+                "0201",
+                "0202",
+                "0210",
+                "0211",
+                "0212",
+                "0220",
+                "0221",
+                "0222",
+                "1000",
+                "1001",
+                "1002",
+                "1010",
+                "1011",
+                "1012",
+                "1020",
+                "1021",
+                "1022",
+                "1100",
+                "1101",
+                "1102",
+                "1110",
+                "1111",
+                "1112",
+                "1120",
+                "1121",
+                "1122",
+                "1200",
+                "1201",
+                "1202",
+                "1210",
+                "1211",
+                "1212",
+                "1220",
+                "1221",
+                "1222",
+                "2000",
+                "2001",
+                "2002",
+                "2010",
+                "2011",
+                "2012",
+                "2020",
+                "2021",
+                "2022",
+                "2100",
+                "2101",
+                "2102",
+                "2110",
+                "2111",
+                "2112",
+                "2120",
+                "2121",
+                "2122",
+                "2200",
+                "2201",
+                "2202",
+                "2210",
+                "2211",
+                "2212",
+                "2220",
+                "2221",
+                "2222"
+            ],
+            "Rule Outputs": [
+                1,
+                1,
+                2,
+                1,
+                1,
+                2,
+                0,
+                1,
+                1,
+                1,
+                2,
+                2,
+                1,
+                1,
+                1,
+                0,
+                1,
+                2,
+                2,
+                2,
+                2,
+                1,
+                1,
+                2,
+                0,
+                1,
+                1,
+                1,
+                1,
+                2,
+                0,
+                1,
+                1,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                1,
+                1,
+                0,
+                1,
+                1,
+                1,
+                2,
+                2,
+                1,
+                1,
+                2,
+                0,
+                0,
+                1,
+                0,
+                1,
+                1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                1,
+                2,
+                2,
+                0,
+                1,
+                2,
+                0,
+                0,
+                1,
+                1,
+                2,
+                2,
+                0,
+                1,
+                2,
+                0,
+                0,
+                1
+            ]
+        }
+    ]
+}
