@@ -25,13 +25,14 @@ bld/
 Project_Files/Release/
 Project_Files/Debug/*
 .vs/
-*.pdb
+
 
 *.vcxproj.user
 
 # Specific FP Ignores
 
 External_Dependencies/RapidJSON/bin
+Project_Files/bin/*.pdb
 
 # Exceptions
 
