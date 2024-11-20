@@ -26,7 +26,6 @@ Project_Files/Release/
 Project_Files/Debug/*
 .vs/
 
-
 *.vcxproj.user
 
 # Specific FP Ignores
@@ -37,3 +36,4 @@ Project_Files/bin/*.pdb
 # Exceptions
 
 !Project_Files/bin/data
+!Project_Files/*.vcxproj.user
